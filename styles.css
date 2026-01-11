@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: #f7f7ff;
+}
+
+.site-header {
+  max-width: 1240px;
+  margin: 20px auto;
+  text-align: justify;
+}
+
+.site-header::after{
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}
+.techblog-logo {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 20px;
+
+  font-size: 24px;
+  font-weight: bold;
+  color: #5b47d1;
+  background-color: #f0edff;
+
+  text-decoration: none;
+  
+}
+
+.navigation {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+}
+ .navigation li{
+  display: inline-block;
+  margin-right: 20px;
+ }
+ .navigation a{
+    text-decoration: none;
+    
+ }
+ .tech-world{
+    width: 100%;
+    height: 400px;
+    background:
+    url("https://images.unsplash.com/photo-1644088379091-d574269d422f?q=80&w=2786&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center/cover;
+ }
+ h1 {
+  padding-top: 130px;
+  padding-bottom: 30px;
+
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.description {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+h2{
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+}
+.card-conatiner {
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;         
+  gap: 20px;               
+  padding: 20px;           
+}
+.card {
+  width: 360px;
+  height: 472px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  background-color: #fff;
+  margin: 50px 20px 20px 0px;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.card-preview {
+  width: 100%;
+  height: 240px;
+
+  border-radius: 4px;
+}
+.background-color-1 {
+  background-color: #c7b8ff;
+}
+
+.background-color-2 {
+  background-color: #ffb8d8;
+}
+
+.background-color-3 {
+  background-color: #b8e0ff;
+}
+
+.background-color-4 {
+  background-color: #d4ffb8;
+}
+
+.background-color-5 {
+  background-color: #ffe4b8;
+}
+.background-color-6 {
+  background-color: #ffd4b8;
+}
+
+.card figcaption,
+.card-heading,
+.card-description {
+  margin-left: 0;
+}
+
+.card figcaption {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.card-heading {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-description {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+
+
+.site-footer {
+    background-color: #252424;
+    color: #A1A1A6;            
+    font-family: sans-serif;   
+    padding-top: 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;            
+    padding: 0 20px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+
+.footer-column {
+    flex: 1;                   
+    min-width: 250px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.brand-title {
+    margin-top: 0;
+    margin-left: 0;       
+    margin-bottom: 15px;  
+   
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+}
+.about-text {
+    text-align: left;     
+    margin-left: 0;       
+    margin-bottom: 30px;
+    max-width: 240px;     
+    line-height: 1.6;
+}
+.section-title {
+    color: #ffffff;            
+    font-size: 20px;
+    margin-top: 30px;          
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;          
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;       
+}
+
+.mail{
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #020202; 
+    text-align: center;        
+    padding: 20px 0;
+    border-top: 1px solid #020202; 
+    font-size: 14px;
+    color: #888;
+}
